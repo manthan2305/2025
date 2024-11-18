@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: "The Compositional Leap: Generative AI in Design Innovation"
-description: The paper "Compositional Generative Inverse Design" introduces CinDM, a novel framework for inverse design using diffusion models. By composing generative models for system subcomponents, CinDM achieves superior generalization to complex, out-of-distribution designs. It demonstrates effectiveness in tasks like N-body interactions and multi-airfoil optimization, paving the way for innovative, scalable engineering solutions.
+description: A review of the paper "Compositional Generative Inverse Design" by Wu et at (ICLR 2024)
 date: 2024-11-18
 future: true
 htmlwidgets: true
@@ -47,6 +47,8 @@ _styles: |
     font-size: 16px;
   }
 ---
+The paper "Compositional Generative Inverse Design" introduces CinDM, a novel framework for inverse design using diffusion models. By composing generative models for system subcomponents, CinDM achieves superior generalization to complex, out-of-distribution designs. It demonstrates effectiveness in tasks like N-body interactions and multi-airfoil optimization, paving the way for innovative, scalable engineering solutions.
+
 ## Introduction
 
 Engineering design involves solving complex optimization problems to innovate systems such as aircraft wings or mechanical components. Traditionally, **forward design** entails predicting the behavior of a system from given inputs, while **inverse design** seeks inputs that yield a desired outcome. The latter has applications in fields like aerospace, nanotechnology, and materials science, where it aids in achieving optimized designs under stringent constraints.
