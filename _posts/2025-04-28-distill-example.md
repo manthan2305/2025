@@ -94,38 +94,9 @@ The optimization process involves:
 - Iterative refinement using a denoising diffusion model.
 - Joint optimization of trajectories and boundaries.
 
-### Experiments and Results
 
-#### Generalization Across Time
+...
 
-CinDM was tested in N-body simulations, where balls interact within a confined space. While training was limited to 24-step trajectories, CinDM successfully designed systems for up to 54 steps, outperforming baselines in both accuracy and design objectives.
-
-#### Generalization Across Objects
-
-In scenarios requiring generalization to more objects, such as extending a 2-body system to an 8-body system, CinDM excelled. By leveraging compositional energy functions, it effectively modeled interactions between additional entities.
-
-#### Multi-Airfoil Design
-
-For high-dimensional challenges like optimizing the shapes of multiple airfoils, CinDM achieved superior aerodynamic performance. Notably, it discovered **formation flying** patterns that minimized drag and improved lift-to-drag ratios, a breakthrough in collaborative design optimization.
+continues
 
 
-## Conclusion
-
-CinDM represents a transformative approach to inverse design, leveraging generative diffusion models for enhanced scalability and generalization. Its compositional framework enables the design of intricate systems beyond the constraints of training data, opening doors to novel engineering solutions.
-
-### Pros and Cons
-
-**Pros:**
-
-- Generalizes to out-of-distribution scenarios.
-- Avoids adversarial design modes.
-- Handles high-dimensional and complex design spaces.
-
-**Cons:**
-
-- Increased computational cost during sampling.
-- Requires fine-tuning of energy function compositions.
-
-### Ongoing Challenges
-
-Despite its promise, CinDM faces challenges in handling real-time constraints and scaling to ultra-high-dimensional problems. Future work could integrate hybrid approaches combining classical solvers and generative models for enhanced efficiency.
